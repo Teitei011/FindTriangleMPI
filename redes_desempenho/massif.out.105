@@ -1,0 +1,1141 @@
+desc: --pages-as-heap=yes
+cmd: ./graph.exe net_large_000.edgelist
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=16384
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=0
+mem_heap_B=24576
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=0
+mem_heap_B=184320
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=0
+mem_heap_B=192512
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=0
+mem_heap_B=196608
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=0
+mem_heap_B=200704
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=0
+mem_heap_B=204800
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=0
+mem_heap_B=212992
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=0
+mem_heap_B=217088
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=0
+mem_heap_B=221184
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n2: 221184 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n0: 217088 0xFFFFFFFFFFFFFFFF: ???
+ n1: 4096 0x400108F: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n1: 4096 0x0: ???
+   n1: 4096 0x1FFF0004F1: ???
+    n0: 4096 0x1FFF0004FD: ???
+#-----------
+snapshot=10
+#-----------
+time=0
+mem_heap_B=221184
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n2: 221184 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n0: 217088 0xFFFFFFFFFFFFFFFF: ???
+ n1: 4096 0x400108F: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n1: 4096 0x0: ???
+   n1: 4096 0x1FFF0004F1: ???
+    n0: 4096 0x1FFF0004FD: ???
+#-----------
+snapshot=11
+#-----------
+time=0
+mem_heap_B=217088
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=0
+mem_heap_B=217088
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=15170
+mem_heap_B=2322432
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=15283
+mem_heap_B=2330624
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=18020
+mem_heap_B=2400256
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=19842
+mem_heap_B=2408448
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=20456
+mem_heap_B=6115328
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=20569
+mem_heap_B=6164480
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=20790
+mem_heap_B=6180864
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=24735
+mem_heap_B=8376320
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n3: 8376320 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 8159232 0x401CF42: mmap (mmap64.c:52)
+  n1: 8007680 0x4006D67: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 8007680 0x4008FFA: _dl_map_object (dl-load.c:2389)
+    n1: 5902336 0x400E310: openaux (dl-deps.c:63)
+     n1: 5902336 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 5902336 0x400E616: _dl_map_object_deps (dl-deps.c:249)
+       n1: 5902336 0x4003EA4: dl_main (rtld.c:1726)
+        n1: 5902336 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 5902336 0x4002126: _dl_start (rtld.c:414)
+          n1: 5902336 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+           n1: 5902336 0x0: ???
+            n1: 5902336 0x1FFF0004F1: ???
+             n0: 5902336 0x1FFF0004FD: ???
+    n1: 2105344 0x4001303: map_doit (rtld.c:591)
+     n1: 2105344 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 2105344 0x401BCDD: _dl_catch_error (dl-error-skeleton.c:215)
+       n1: 2105344 0x4002566: handle_ld_preload (rtld.c:762)
+        n1: 2105344 0x4003E33: dl_main (rtld.c:1618)
+         n1: 2105344 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+          n1: 2105344 0x4002126: _dl_start (rtld.c:414)
+           n1: 2105344 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+            n1: 2105344 0x0: ???
+             n1: 2105344 0x1FFF0004F1: ???
+              n0: 2105344 0x1FFF0004FD: ???
+  n0: 151552 in 4 places, all below massif's threshold (1.00%)
+ n0: 217088 0xFFFFFFFFFFFFFFFF: ???
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=24848
+mem_heap_B=8384512
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=29212
+mem_heap_B=12517376
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=29306
+mem_heap_B=12541952
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=29618
+mem_heap_B=12558336
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=34054
+mem_heap_B=16351232
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=34167
+mem_heap_B=16359424
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=55101
+mem_heap_B=16367616
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=443236
+mem_heap_B=16375808
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=2017387
+mem_heap_B=16375808
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n3: 16375808 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 16158720 0x401CF42: mmap (mmap64.c:52)
+  n1: 15933440 0x4006D67: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 15933440 0x4008FFA: _dl_map_object (dl-load.c:2389)
+    n1: 13828096 0x400E310: openaux (dl-deps.c:63)
+     n1: 13828096 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 13828096 0x400E616: _dl_map_object_deps (dl-deps.c:249)
+       n1: 13828096 0x4003EA4: dl_main (rtld.c:1726)
+        n1: 13828096 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 13828096 0x4002126: _dl_start (rtld.c:414)
+          n1: 13828096 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+           n1: 13828096 0x0: ???
+            n1: 13828096 0x1FFF0004F1: ???
+             n0: 13828096 0x1FFF0004FD: ???
+    n1: 2105344 0x4001303: map_doit (rtld.c:591)
+     n1: 2105344 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 2105344 0x401BCDD: _dl_catch_error (dl-error-skeleton.c:215)
+       n1: 2105344 0x4002566: handle_ld_preload (rtld.c:762)
+        n1: 2105344 0x4003E33: dl_main (rtld.c:1618)
+         n1: 2105344 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+          n1: 2105344 0x4002126: _dl_start (rtld.c:414)
+           n1: 2105344 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+            n1: 2105344 0x0: ???
+             n1: 2105344 0x1FFF0004F1: ???
+              n0: 2105344 0x1FFF0004FD: ???
+  n0: 225280 in 4 places, all below massif's threshold (1.00%)
+ n0: 217088 0xFFFFFFFFFFFFFFFF: ???
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=2017387
+mem_heap_B=16371712
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=2089491
+mem_heap_B=16441344
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=4369290
+mem_heap_B=16588800
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=11408247
+mem_heap_B=16723968
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=11474120
+mem_heap_B=16723968
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n4: 16723968 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 16089088 0x401CF42: mmap (mmap64.c:52)
+  n1: 15933440 0x4006D67: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 15933440 0x4008FFA: _dl_map_object (dl-load.c:2389)
+    n1: 13828096 0x400E310: openaux (dl-deps.c:63)
+     n1: 13828096 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 13828096 0x400E616: _dl_map_object_deps (dl-deps.c:249)
+       n1: 13828096 0x4003EA4: dl_main (rtld.c:1726)
+        n1: 13828096 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 13828096 0x4002126: _dl_start (rtld.c:414)
+          n1: 13828096 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+           n1: 13828096 0x0: ???
+            n1: 13828096 0x1FFF0004F1: ???
+             n0: 13828096 0x1FFF0004FD: ???
+    n1: 2105344 0x4001303: map_doit (rtld.c:591)
+     n1: 2105344 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 2105344 0x401BCDD: _dl_catch_error (dl-error-skeleton.c:215)
+       n1: 2105344 0x4002566: handle_ld_preload (rtld.c:762)
+        n1: 2105344 0x4003E33: dl_main (rtld.c:1618)
+         n1: 2105344 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+          n1: 2105344 0x4002126: _dl_start (rtld.c:414)
+           n1: 2105344 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+            n1: 2105344 0x0: ???
+             n1: 2105344 0x1FFF0004F1: ???
+              n0: 2105344 0x1FFF0004FD: ???
+  n0: 155648 in 4 places, all below massif's threshold (1.00%)
+ n1: 282624 0x52E34B8: brk (brk.c:31)
+  n1: 282624 0x52E358F: sbrk (sbrk.c:56)
+   n1: 282624 0x5268197: __default_morecore (morecore.c:47)
+    n1: 282624 0x5260DAA: sysmalloc (malloc.c:2489)
+     n1: 282624 0x5261FEE: _int_malloc (malloc.c:4125)
+      n0: 282624 in 2 places, all below massif's threshold (1.00%)
+ n0: 217088 0xFFFFFFFFFFFFFFFF: ???
+ n0: 135168 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=11474120
+mem_heap_B=16719872
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=21131862
+mem_heap_B=16924672
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=21263124
+mem_heap_B=16924672
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n5: 16924672 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 16089088 0x401CF42: mmap (mmap64.c:52)
+  n1: 15933440 0x4006D67: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 15933440 0x4008FFA: _dl_map_object (dl-load.c:2389)
+    n1: 13828096 0x400E310: openaux (dl-deps.c:63)
+     n1: 13828096 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 13828096 0x400E616: _dl_map_object_deps (dl-deps.c:249)
+       n1: 13828096 0x4003EA4: dl_main (rtld.c:1726)
+        n1: 13828096 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 13828096 0x4002126: _dl_start (rtld.c:414)
+          n1: 13828096 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+           n1: 13828096 0x0: ???
+            n1: 13828096 0x1FFF0004F1: ???
+             n0: 13828096 0x1FFF0004FD: ???
+    n1: 2105344 0x4001303: map_doit (rtld.c:591)
+     n1: 2105344 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 2105344 0x401BCDD: _dl_catch_error (dl-error-skeleton.c:215)
+       n1: 2105344 0x4002566: handle_ld_preload (rtld.c:762)
+        n1: 2105344 0x4003E33: dl_main (rtld.c:1618)
+         n1: 2105344 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+          n1: 2105344 0x4002126: _dl_start (rtld.c:414)
+           n1: 2105344 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+            n1: 2105344 0x0: ???
+             n1: 2105344 0x1FFF0004F1: ???
+              n0: 2105344 0x1FFF0004FD: ???
+  n0: 155648 in 4 places, all below massif's threshold (1.00%)
+ n1: 401408 0x52E8A12: mmap (mmap64.c:52)
+  n1: 401408 0x52612AD: sysmalloc (malloc.c:2329)
+   n1: 401408 0x5261FEE: _int_malloc (malloc.c:4125)
+    n1: 401408 0x52640FA: malloc (malloc.c:3057)
+     n1: 401408 0x4CBF256: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 401408 0x10AB62: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+       n1: 401408 0x10A4DB: read_numbers(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+        n0: 401408 0x10997A: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+ n0: 217088 0xFFFFFFFFFFFFFFFF: ???
+ n1: 217088 0x52E34B8: brk (brk.c:31)
+  n1: 217088 0x52E358F: sbrk (sbrk.c:56)
+   n1: 217088 0x5268197: __default_morecore (morecore.c:47)
+    n1: 217088 0x5260DAA: sysmalloc (malloc.c:2489)
+     n1: 217088 0x5261FEE: _int_malloc (malloc.c:4125)
+      n0: 217088 in 2 places, all below massif's threshold (1.00%)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=21263124
+mem_heap_B=16920576
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=41570095
+mem_heap_B=17317888
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=41832427
+mem_heap_B=17317888
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n5: 17317888 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 16089088 0x401CF42: mmap (mmap64.c:52)
+  n1: 15933440 0x4006D67: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 15933440 0x4008FFA: _dl_map_object (dl-load.c:2389)
+    n1: 13828096 0x400E310: openaux (dl-deps.c:63)
+     n1: 13828096 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 13828096 0x400E616: _dl_map_object_deps (dl-deps.c:249)
+       n1: 13828096 0x4003EA4: dl_main (rtld.c:1726)
+        n1: 13828096 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 13828096 0x4002126: _dl_start (rtld.c:414)
+          n1: 13828096 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+           n1: 13828096 0x0: ???
+            n1: 13828096 0x1FFF0004F1: ???
+             n0: 13828096 0x1FFF0004FD: ???
+    n1: 2105344 0x4001303: map_doit (rtld.c:591)
+     n1: 2105344 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 2105344 0x401BCDD: _dl_catch_error (dl-error-skeleton.c:215)
+       n1: 2105344 0x4002566: handle_ld_preload (rtld.c:762)
+        n1: 2105344 0x4003E33: dl_main (rtld.c:1618)
+         n1: 2105344 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+          n1: 2105344 0x4002126: _dl_start (rtld.c:414)
+           n1: 2105344 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+            n1: 2105344 0x0: ???
+             n1: 2105344 0x1FFF0004F1: ???
+              n0: 2105344 0x1FFF0004FD: ???
+  n0: 155648 in 4 places, all below massif's threshold (1.00%)
+ n1: 794624 0x52E8A12: mmap (mmap64.c:52)
+  n1: 794624 0x52612AD: sysmalloc (malloc.c:2329)
+   n1: 794624 0x5261FEE: _int_malloc (malloc.c:4125)
+    n1: 794624 0x52640FA: malloc (malloc.c:3057)
+     n1: 794624 0x4CBF256: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 794624 0x10AB62: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+       n1: 794624 0x10A4DB: read_numbers(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+        n0: 794624 0x10997A: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+ n0: 217088 0xFFFFFFFFFFFFFFFF: ???
+ n1: 217088 0x52E34B8: brk (brk.c:31)
+  n1: 217088 0x52E358F: sbrk (sbrk.c:56)
+   n1: 217088 0x5268197: __default_morecore (morecore.c:47)
+    n1: 217088 0x5260DAA: sysmalloc (malloc.c:2489)
+     n1: 217088 0x5261FEE: _int_malloc (malloc.c:4125)
+      n0: 217088 in 2 places, all below massif's threshold (1.00%)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=41832427
+mem_heap_B=17313792
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=83888206
+mem_heap_B=18104320
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=84412682
+mem_heap_B=18104320
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n5: 18104320 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 16089088 0x401CF42: mmap (mmap64.c:52)
+  n1: 15933440 0x4006D67: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 15933440 0x4008FFA: _dl_map_object (dl-load.c:2389)
+    n1: 13828096 0x400E310: openaux (dl-deps.c:63)
+     n1: 13828096 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 13828096 0x400E616: _dl_map_object_deps (dl-deps.c:249)
+       n1: 13828096 0x4003EA4: dl_main (rtld.c:1726)
+        n1: 13828096 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 13828096 0x4002126: _dl_start (rtld.c:414)
+          n1: 13828096 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+           n1: 13828096 0x0: ???
+            n1: 13828096 0x1FFF0004F1: ???
+             n0: 13828096 0x1FFF0004FD: ???
+    n1: 2105344 0x4001303: map_doit (rtld.c:591)
+     n1: 2105344 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 2105344 0x401BCDD: _dl_catch_error (dl-error-skeleton.c:215)
+       n1: 2105344 0x4002566: handle_ld_preload (rtld.c:762)
+        n1: 2105344 0x4003E33: dl_main (rtld.c:1618)
+         n1: 2105344 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+          n1: 2105344 0x4002126: _dl_start (rtld.c:414)
+           n1: 2105344 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+            n1: 2105344 0x0: ???
+             n1: 2105344 0x1FFF0004F1: ???
+              n0: 2105344 0x1FFF0004FD: ???
+  n0: 155648 in 4 places, all below massif's threshold (1.00%)
+ n1: 1581056 0x52E8A12: mmap (mmap64.c:52)
+  n1: 1581056 0x52612AD: sysmalloc (malloc.c:2329)
+   n1: 1581056 0x5261FEE: _int_malloc (malloc.c:4125)
+    n1: 1581056 0x52640FA: malloc (malloc.c:3057)
+     n1: 1581056 0x4CBF256: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 1581056 0x10AB62: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+       n1: 1581056 0x10A4DB: read_numbers(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+        n0: 1581056 0x10997A: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+ n0: 217088 0xFFFFFFFFFFFFFFFF: ???
+ n1: 217088 0x52E34B8: brk (brk.c:31)
+  n1: 217088 0x52E358F: sbrk (sbrk.c:56)
+   n1: 217088 0x5268197: __default_morecore (morecore.c:47)
+    n1: 217088 0x5260DAA: sysmalloc (malloc.c:2489)
+     n1: 217088 0x5261FEE: _int_malloc (malloc.c:4125)
+      n0: 217088 in 2 places, all below massif's threshold (1.00%)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=84412682
+mem_heap_B=18100224
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=120204645
+mem_heap_B=18317312
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=120953201
+mem_heap_B=18317312
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n5: 18317312 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 16089088 0x401CF42: mmap (mmap64.c:52)
+  n1: 15933440 0x4006D67: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 15933440 0x4008FFA: _dl_map_object (dl-load.c:2389)
+    n1: 13828096 0x400E310: openaux (dl-deps.c:63)
+     n1: 13828096 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 13828096 0x400E616: _dl_map_object_deps (dl-deps.c:249)
+       n1: 13828096 0x4003EA4: dl_main (rtld.c:1726)
+        n1: 13828096 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 13828096 0x4002126: _dl_start (rtld.c:414)
+          n1: 13828096 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+           n1: 13828096 0x0: ???
+            n1: 13828096 0x1FFF0004F1: ???
+             n0: 13828096 0x1FFF0004FD: ???
+    n1: 2105344 0x4001303: map_doit (rtld.c:591)
+     n1: 2105344 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 2105344 0x401BCDD: _dl_catch_error (dl-error-skeleton.c:215)
+       n1: 2105344 0x4002566: handle_ld_preload (rtld.c:762)
+        n1: 2105344 0x4003E33: dl_main (rtld.c:1618)
+         n1: 2105344 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+          n1: 2105344 0x4002126: _dl_start (rtld.c:414)
+           n1: 2105344 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+            n1: 2105344 0x0: ???
+             n1: 2105344 0x1FFF0004F1: ???
+              n0: 2105344 0x1FFF0004FD: ???
+  n0: 155648 in 4 places, all below massif's threshold (1.00%)
+ n1: 1794048 0x52E8A12: mmap (mmap64.c:52)
+  n1: 1794048 0x52612AD: sysmalloc (malloc.c:2329)
+   n1: 1794048 0x5261FEE: _int_malloc (malloc.c:4125)
+    n1: 1794048 0x52640FA: malloc (malloc.c:3057)
+     n2: 1794048 0x4CBF256: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 1052672 0x10AB62: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+       n1: 1052672 0x10A4DB: read_numbers(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+        n0: 1052672 0x10997A: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+      n1: 741376 0x10A811: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+       n1: 741376 0x10A406: read_numbers(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+        n0: 741376 0x10997A: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+ n0: 217088 0xFFFFFFFFFFFFFFFF: ???
+ n1: 217088 0x52E34B8: brk (brk.c:31)
+  n1: 217088 0x52E358F: sbrk (sbrk.c:56)
+   n1: 217088 0x5268197: __default_morecore (morecore.c:47)
+    n1: 217088 0x5260DAA: sysmalloc (malloc.c:2489)
+     n1: 217088 0x5261FEE: _int_malloc (malloc.c:4125)
+      n0: 217088 in 2 places, all below massif's threshold (1.00%)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=120953201
+mem_heap_B=18313216
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=120953681
+mem_heap_B=18006016
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=121696655
+mem_heap_B=20230144
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=123611148
+mem_heap_B=20365312
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=124962363
+mem_heap_B=20500480
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=126355145
+mem_heap_B=20635648
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=127824710
+mem_heap_B=20770816
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=129342636
+mem_heap_B=20905984
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=130912875
+mem_heap_B=21041152
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=132521170
+mem_heap_B=21176320
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n5: 21176320 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 16089088 0x401CF42: mmap (mmap64.c:52)
+  n1: 15933440 0x4006D67: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 15933440 0x4008FFA: _dl_map_object (dl-load.c:2389)
+    n1: 13828096 0x400E310: openaux (dl-deps.c:63)
+     n1: 13828096 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 13828096 0x400E616: _dl_map_object_deps (dl-deps.c:249)
+       n1: 13828096 0x4003EA4: dl_main (rtld.c:1726)
+        n1: 13828096 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 13828096 0x4002126: _dl_start (rtld.c:414)
+          n1: 13828096 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+           n1: 13828096 0x0: ???
+            n1: 13828096 0x1FFF0004F1: ???
+             n0: 13828096 0x1FFF0004FD: ???
+    n1: 2105344 0x4001303: map_doit (rtld.c:591)
+     n1: 2105344 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 2105344 0x401BCDD: _dl_catch_error (dl-error-skeleton.c:215)
+       n1: 2105344 0x4002566: handle_ld_preload (rtld.c:762)
+        n1: 2105344 0x4003E33: dl_main (rtld.c:1618)
+         n1: 2105344 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+          n1: 2105344 0x4002126: _dl_start (rtld.c:414)
+           n1: 2105344 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+            n1: 2105344 0x0: ???
+             n1: 2105344 0x1FFF0004F1: ???
+              n0: 2105344 0x1FFF0004FD: ???
+  n0: 155648 in 4 places, all below massif's threshold (1.00%)
+ n1: 2965504 0x52E8A12: mmap (mmap64.c:52)
+  n1: 2965504 0x52612AD: sysmalloc (malloc.c:2329)
+   n1: 2965504 0x5261FEE: _int_malloc (malloc.c:4125)
+    n1: 2965504 0x52640FA: malloc (malloc.c:3057)
+     n3: 2965504 0x4CBF256: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 2224128 0x10A9AC: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_default_append(unsigned long) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+       n1: 2224128 0x10A044: Graph::Graph(int) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+        n0: 2224128 0x109A39: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+      n1: 741376 0x10A811: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+       n1: 741376 0x10A406: read_numbers(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+        n0: 741376 0x10997A: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 1904640 0x52E34B8: brk (brk.c:31)
+  n1: 1904640 0x52E358F: sbrk (sbrk.c:56)
+   n1: 1904640 0x5268197: __default_morecore (morecore.c:47)
+    n1: 1904640 0x5260DAA: sysmalloc (malloc.c:2489)
+     n2: 1904640 0x5261FEE: _int_malloc (malloc.c:4125)
+      n1: 1769472 0x52640FA: malloc (malloc.c:3057)
+       n2: 1769472 0x4CBF256: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n3: 1028096 0x10AB62: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n1: 675840 0x10A628: Graph::addEdge(int, int) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+          n0: 675840 0x109A90: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n1: 270336 0x10A610: Graph::addEdge(int, int) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+          n0: 270336 0x109A90: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n0: 81920 in 1 place, below massif's threshold (1.00%)
+        n1: 741376 0x10A811: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n0: 741376 0x109A21: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+      n0: 135168 in 1 place, below massif's threshold (1.00%)
+ n0: 217088 0xFFFFFFFFFFFFFFFF: ???
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=134164024
+mem_heap_B=21311488
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=135839794
+mem_heap_B=21446656
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=137571509
+mem_heap_B=21581824
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=139347891
+mem_heap_B=21716992
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=141170376
+mem_heap_B=21852160
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=143043888
+mem_heap_B=21987328
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=144967289
+mem_heap_B=22122496
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=146909631
+mem_heap_B=22257664
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=148894306
+mem_heap_B=22392832
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=150924150
+mem_heap_B=22528000
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n4: 22528000 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 16089088 0x401CF42: mmap (mmap64.c:52)
+  n1: 15933440 0x4006D67: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 15933440 0x4008FFA: _dl_map_object (dl-load.c:2389)
+    n1: 13828096 0x400E310: openaux (dl-deps.c:63)
+     n1: 13828096 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 13828096 0x400E616: _dl_map_object_deps (dl-deps.c:249)
+       n1: 13828096 0x4003EA4: dl_main (rtld.c:1726)
+        n1: 13828096 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 13828096 0x4002126: _dl_start (rtld.c:414)
+          n1: 13828096 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+           n1: 13828096 0x0: ???
+            n1: 13828096 0x1FFF0004F1: ???
+             n0: 13828096 0x1FFF0004FD: ???
+    n1: 2105344 0x4001303: map_doit (rtld.c:591)
+     n1: 2105344 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 2105344 0x401BCDD: _dl_catch_error (dl-error-skeleton.c:215)
+       n1: 2105344 0x4002566: handle_ld_preload (rtld.c:762)
+        n1: 2105344 0x4003E33: dl_main (rtld.c:1618)
+         n1: 2105344 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+          n1: 2105344 0x4002126: _dl_start (rtld.c:414)
+           n1: 2105344 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+            n1: 2105344 0x0: ???
+             n1: 2105344 0x1FFF0004F1: ???
+              n0: 2105344 0x1FFF0004FD: ???
+  n0: 155648 in 4 places, all below massif's threshold (1.00%)
+ n1: 3256320 0x52E34B8: brk (brk.c:31)
+  n1: 3256320 0x52E358F: sbrk (sbrk.c:56)
+   n1: 3256320 0x5268197: __default_morecore (morecore.c:47)
+    n1: 3256320 0x5260DAA: sysmalloc (malloc.c:2489)
+     n2: 3256320 0x5261FEE: _int_malloc (malloc.c:4125)
+      n1: 3121152 0x52640FA: malloc (malloc.c:3057)
+       n2: 3121152 0x4CBF256: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n3: 2379776 0x10AB62: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n1: 1216512 0x10A610: Graph::addEdge(int, int) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+          n0: 1216512 0x109A90: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n1: 1081344 0x10A628: Graph::addEdge(int, int) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+          n0: 1081344 0x109A90: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n0: 81920 in 1 place, below massif's threshold (1.00%)
+        n1: 741376 0x10A811: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n0: 741376 0x109A21: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+      n0: 135168 in 1 place, below massif's threshold (1.00%)
+ n1: 2965504 0x52E8A12: mmap (mmap64.c:52)
+  n1: 2965504 0x52612AD: sysmalloc (malloc.c:2329)
+   n1: 2965504 0x5261FEE: _int_malloc (malloc.c:4125)
+    n1: 2965504 0x52640FA: malloc (malloc.c:3057)
+     n3: 2965504 0x4CBF256: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 2224128 0x10A9AC: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_default_append(unsigned long) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+       n1: 2224128 0x10A044: Graph::Graph(int) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+        n0: 2224128 0x109A39: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+      n1: 741376 0x10A811: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+       n1: 741376 0x10A406: read_numbers(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+        n0: 741376 0x10997A: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 217088 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=152991807
+mem_heap_B=22663168
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=155109142
+mem_heap_B=22798336
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=157259043
+mem_heap_B=22933504
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=159464931
+mem_heap_B=23068672
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=161712615
+mem_heap_B=23203840
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=163994123
+mem_heap_B=23339008
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=251336925
+mem_heap_B=23494656
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=260490297
+mem_heap_B=23691264
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=264404309
+mem_heap_B=23953408
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=267559792
+mem_heap_B=24477696
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n4: 24477696 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 16089088 0x401CF42: mmap (mmap64.c:52)
+  n1: 15933440 0x4006D67: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 15933440 0x4008FFA: _dl_map_object (dl-load.c:2389)
+    n1: 13828096 0x400E310: openaux (dl-deps.c:63)
+     n1: 13828096 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 13828096 0x400E616: _dl_map_object_deps (dl-deps.c:249)
+       n1: 13828096 0x4003EA4: dl_main (rtld.c:1726)
+        n1: 13828096 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 13828096 0x4002126: _dl_start (rtld.c:414)
+          n1: 13828096 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+           n1: 13828096 0x0: ???
+            n1: 13828096 0x1FFF0004F1: ???
+             n0: 13828096 0x1FFF0004FD: ???
+    n1: 2105344 0x4001303: map_doit (rtld.c:591)
+     n1: 2105344 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 2105344 0x401BCDD: _dl_catch_error (dl-error-skeleton.c:215)
+       n1: 2105344 0x4002566: handle_ld_preload (rtld.c:762)
+        n1: 2105344 0x4003E33: dl_main (rtld.c:1618)
+         n1: 2105344 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+          n1: 2105344 0x4002126: _dl_start (rtld.c:414)
+           n1: 2105344 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+            n1: 2105344 0x0: ???
+             n1: 2105344 0x1FFF0004F1: ???
+              n0: 2105344 0x1FFF0004FD: ???
+  n0: 155648 in 4 places, all below massif's threshold (1.00%)
+ n1: 5206016 0x52E34B8: brk (brk.c:31)
+  n1: 5206016 0x52E358F: sbrk (sbrk.c:56)
+   n1: 5206016 0x5268197: __default_morecore (morecore.c:47)
+    n1: 5206016 0x5260DAA: sysmalloc (malloc.c:2489)
+     n2: 5206016 0x5261FEE: _int_malloc (malloc.c:4125)
+      n1: 5070848 0x52640FA: malloc (malloc.c:3057)
+       n2: 5070848 0x4CBF256: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n4: 4329472 0x10AB62: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n1: 1757184 0x10A610: Graph::addEdge(int, int) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+          n0: 1757184 0x109A90: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n1: 1351680 0x10A628: Graph::addEdge(int, int) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+          n0: 1351680 0x109A90: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n1: 1138688 0x10A1D5: Graph::find_triangles() (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+          n0: 1138688 0x109AAB: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n0: 81920 in 1 place, below massif's threshold (1.00%)
+        n1: 741376 0x10A811: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n0: 741376 0x109A21: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+      n0: 135168 in 1 place, below massif's threshold (1.00%)
+ n1: 2965504 0x52E8A12: mmap (mmap64.c:52)
+  n1: 2965504 0x52612AD: sysmalloc (malloc.c:2329)
+   n1: 2965504 0x5261FEE: _int_malloc (malloc.c:4125)
+    n1: 2965504 0x52640FA: malloc (malloc.c:3057)
+     n3: 2965504 0x4CBF256: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 2224128 0x10A9AC: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_default_append(unsigned long) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+       n1: 2224128 0x10A044: Graph::Graph(int) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+        n0: 2224128 0x109A39: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+      n1: 741376 0x10A811: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+       n1: 741376 0x10A406: read_numbers(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+        n0: 741376 0x10997A: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 217088 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=77
+#-----------
+time=325947703
+mem_heap_B=24477696
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=peak
+n4: 24477696 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 16089088 0x401CF42: mmap (mmap64.c:52)
+  n1: 15933440 0x4006D67: _dl_map_object_from_fd (dl-map-segments.h:56)
+   n2: 15933440 0x4008FFA: _dl_map_object (dl-load.c:2389)
+    n1: 13828096 0x400E310: openaux (dl-deps.c:63)
+     n1: 13828096 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 13828096 0x400E616: _dl_map_object_deps (dl-deps.c:249)
+       n1: 13828096 0x4003EA4: dl_main (rtld.c:1726)
+        n1: 13828096 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+         n1: 13828096 0x4002126: _dl_start (rtld.c:414)
+          n1: 13828096 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+           n1: 13828096 0x0: ???
+            n1: 13828096 0x1FFF0004F1: ???
+             n0: 13828096 0x1FFF0004FD: ???
+    n1: 2105344 0x4001303: map_doit (rtld.c:591)
+     n1: 2105344 0x401BC69: _dl_catch_exception (dl-error-skeleton.c:196)
+      n1: 2105344 0x401BCDD: _dl_catch_error (dl-error-skeleton.c:215)
+       n1: 2105344 0x4002566: handle_ld_preload (rtld.c:762)
+        n1: 2105344 0x4003E33: dl_main (rtld.c:1618)
+         n1: 2105344 0x401ADCE: _dl_sysdep_start (dl-sysdep.c:253)
+          n1: 2105344 0x4002126: _dl_start (rtld.c:414)
+           n1: 2105344 0x4001096: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+            n1: 2105344 0x0: ???
+             n1: 2105344 0x1FFF0004F1: ???
+              n0: 2105344 0x1FFF0004FD: ???
+  n0: 155648 in 4 places, all below massif's threshold (1.00%)
+ n1: 5206016 0x52E34B8: brk (brk.c:31)
+  n1: 5206016 0x52E358F: sbrk (sbrk.c:56)
+   n1: 5206016 0x5268197: __default_morecore (morecore.c:47)
+    n1: 5206016 0x5260DAA: sysmalloc (malloc.c:2489)
+     n2: 5206016 0x5261FEE: _int_malloc (malloc.c:4125)
+      n1: 5070848 0x52640FA: malloc (malloc.c:3057)
+       n2: 5070848 0x4CBF256: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n4: 4329472 0x10AB62: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n1: 1757184 0x10A610: Graph::addEdge(int, int) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+          n0: 1757184 0x109A90: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n1: 1351680 0x10A628: Graph::addEdge(int, int) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+          n0: 1351680 0x109A90: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n1: 1138688 0x10A1D5: Graph::find_triangles() (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+          n0: 1138688 0x109AAB: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n0: 81920 in 1 place, below massif's threshold (1.00%)
+        n1: 741376 0x10A811: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+         n0: 741376 0x109A21: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+      n0: 135168 in 1 place, below massif's threshold (1.00%)
+ n1: 2965504 0x52E8A12: mmap (mmap64.c:52)
+  n1: 2965504 0x52612AD: sysmalloc (malloc.c:2329)
+   n1: 2965504 0x5261FEE: _int_malloc (malloc.c:4125)
+    n1: 2965504 0x52640FA: malloc (malloc.c:3057)
+     n3: 2965504 0x4CBF256: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 2224128 0x10A9AC: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_default_append(unsigned long) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+       n1: 2224128 0x10A044: Graph::Graph(int) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+        n0: 2224128 0x109A39: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+      n1: 741376 0x10A811: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+       n1: 741376 0x10A406: read_numbers(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+        n0: 741376 0x10997A: main (in /mnt/c/Users/stefa/Desktop/Cursos/Computação de Alto Desempenho/Projeto 4/redes_desempenho/graph.exe)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 217088 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=78
+#-----------
+time=325947703
+mem_heap_B=24473600
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=330729935
+mem_heap_B=22249472
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
